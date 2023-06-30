@@ -28,11 +28,15 @@ main {
 
 .div-b {
   background-image: url("banner.jpg");
-  min-height: 75vh;
+  /* min-height: 75vh;  */
+  padding-top: 60px;
+  padding-bottom: 30px;
   background-size: cover;
   background-position: center;
 }
-
+.div-b h1 {
+  font-size: 1.4rem;
+}
 .notebook {
   border-radius: 90%;
 }
@@ -55,6 +59,6 @@ footer {
   text-decoration: underline;
 }
 
-h8 {
+.h8 {
   text-decoration: underline;
 }
