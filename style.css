@@ -1,12 +1,11 @@
 body {
-  margin: 0;
   width: 500px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
 
 img {
-  width: 500px;
+  width: 497px;
 }
 
 h1 {
@@ -45,7 +44,15 @@ main {
 .div-b h1 {
   font-size: 1.4rem;
 }
+
+.div-b button {
+  background-color: #f04c2f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 .notebook img {
+  width: 375px;
   border-radius: 50% 50% 50% 50% / 48% 49% 51% 52%;
 }
 
@@ -57,23 +64,42 @@ main {
 .apple {
   border-style: solid;
   border-color: #dee1e3;
+  margin: 30px;
+}
+
+.apple img {
+  width: 436px;
 }
 
 .eggplant {
   font-size: medium;
   border-style: solid;
   border-color: #dee1e3;
+  margin: 30px;
 }
 
+.eggplant img {
+  width: 436px;
+}
 .pineapple {
   border-style: solid;
   border-color: #dee1e3;
+  margin: 30px;
+}
+
+.pineapple img {
+  width: 436px;
 }
 
 footer {
-  text-decoration: underline;
+  color: white;
+
+  background-color: #25a2c3;
 }
 
-.h8 {
-  text-decoration: underline;
+footer img {
+  width: 16px;
+}
+h5 {
+  text-decoration-line: underline;
 }
