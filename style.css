@@ -1,8 +1,12 @@
 body {
   margin: 0;
   width: 500px;
-
+  text-align: center;
   font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: 500px;
 }
 
 h1 {
@@ -26,6 +30,10 @@ main {
   /* background-color: #25a2c3; */
 }
 
+.div-a img {
+  width: auto;
+}
+
 .div-b {
   background-image: url("banner.jpg");
   /* min-height: 75vh;  */
@@ -37,8 +45,8 @@ main {
 .div-b h1 {
   font-size: 1.4rem;
 }
-.notebook {
-  border-radius: 90%;
+.notebook img {
+  border-radius: 50% 50% 50% 50% / 48% 49% 51% 52%;
 }
 
 .coloro {
@@ -48,11 +56,18 @@ main {
 
 .apple {
   border-style: solid;
-  border-color: grey;
+  border-color: #dee1e3;
 }
 
 .eggplant {
   font-size: medium;
+  border-style: solid;
+  border-color: #dee1e3;
+}
+
+.pineapple {
+  border-style: solid;
+  border-color: #dee1e3;
 }
 
 footer {
